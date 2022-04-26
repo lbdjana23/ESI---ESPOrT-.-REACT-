@@ -1,0 +1,12 @@
+.createsquad .lingkaran .img3 {
+    margin-top: -30px;
+    width:30px; 
+    height:30px;
+    margin-left: 51%;
+}
+
+.createsquad .lingkaran .img2{
+    border: 2px solid #B0B0B0;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
