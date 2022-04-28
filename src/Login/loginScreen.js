@@ -27,7 +27,7 @@ function loginScreen() {
     <>
       <>
         <main>
-          <div class="col-sm-6 offset-md-3 conten mt-4 pt-5">
+          <div class="col-sm-6  conten mt-4 pt-5">
             <div>
               <h1>
                 <b>Masuk</b>
@@ -59,29 +59,21 @@ function loginScreen() {
                 <Link to="/forgot-password">Lupa Kata Sandi?</Link>
               </div>
 
-              <nav className="text-center btn-1">
-                <Link to="/homepage-not-squad">
-                  <button style={{ margin: 10 }}>MASUK</button>
-                </Link>
-              </nav>
+              
+             <Link to="/homepage-not-squad" class="nav-link"><button type="button" class="btn-1 mt-3"><b>MASUK</b></button></Link>
+              
 
-              <div class="mt-3 mb-3">
+              <div class="mt-2 mb-4">
                 <h3>Atau masuk menggunakan</h3>
               </div>
-              <div class="col-md-3 mx-auto">
-                <div class="d-flex flex-row justify-content-around mt-3 ">
-                  <Link to="">
-                    <div class="d-flex flex-row btn1 mr-2">
-                      <img src={facebook} alt="" />
-                      Facebook
+              <div class="col-md-9 mx-auto">
+                <div class="d-flex flex-row justify-content-around ">
+                    <div class="d-flex flex-row  mr-2">
+                      <Link to=""><button type="button" class="btn btn1 d-flex flex-row  pt-3 "><img src={facebook} alt="" class="img1 mx-auto"/> <span>Facebook</span> </button></Link>
                     </div>
-                  </Link>
-                  <Link to="">
-                    <div class="d-flex flex-row btn2 ml-2">
-                      <img src={google} alt="" />
-                      Google
+                    <div class="d-flex flex-row  ml-2">
+                    <Link to=""><button type="button" class="btn btn2 d-flex flex-row  "><img src={google} alt="" />  <span class="img2">Google</span></button></Link>                                  
                     </div>
-                  </Link>
                 </div>
               </div>
             </div>

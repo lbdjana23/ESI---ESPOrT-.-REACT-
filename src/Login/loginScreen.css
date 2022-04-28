@@ -27,6 +27,7 @@ body {
   list-style-type: none !important;
 }
 
+
 .contain {
   border-radius: 24px !important;
   width: 360px;
@@ -41,97 +42,182 @@ body {
   width: 85%;
 }
 .conten h1 {
-  font-family: 'Product Sans';
+  font-family: Product Sans;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  color: #1E272E;
-
+  color: #1e272e;
+  margin-bottom: 20px;
 }
 
 .conten h2 {
-  font-family: 'Product Sans';
+  font-family: Product Sans;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
-
-
-  color: #1E272E;
+  color: #1e272e;
 }
 
-.conten label {
+.conten1 h1{
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1e272e;
+  margin-bottom: 20px;
+}
+
+.conten1 h2{
   font-family: 'Product Sans';
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
-  color: #1E272E;
-}
-.conten .form-control {
-  background: #FFFFFF;
-  padding: 12px;
-  border: 1px solid #CED6E0;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-
-.form-control::-webkit-input-placeholder{
-	font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #1E272E;
-}
-
-.conten h3{ 
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  line-height: 24px;
   text-align: center;
-  color: #747D8C;
+  color: #292D32;
+}
+.conten .dngr{
+  padding: 12px;
+  width: 100%;
+  height: 41px;
+  background: rgba(243, 0, 31, 0.1);
+  border-radius: 4px;
+
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #798188;
+}
+.conten h2 a{
+    
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EC2028;
 }
 
-.btn1{
-  display: flex;
-  align-items: center;
-  padding: 12px 30px;
-  width: auto;
-  height: 42px;
-  background: #FFFFFF;
-  border: 1px solid #3B5998;
-  box-sizing: border-box;
-  border-radius: 4px;
-  font-family: 'Google Sans';
+.konten a{
+  font-family: 'Product Sans';
   font-style: normal;
-  font-weight: 700;
+  font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #3B5998;
+  color: #EC2028;
 }
-
-.btn2{
+.btn-1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px 30px;
-  width: 137px;
+  padding: 12px 14px;
+  width: 100%;
   height: 42px;
+  background: #E4E5EA;
+  border-radius: 4px;
+  border: none;
+
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #747D8C;
+}
+
+.btn-1:hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 14px;
+  width: 100%;
+  height: 42px;
+  background: #EC2028;
+  border-radius: 4px;
+
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.btn1{
+      
+      width: 150px;
+      height: 50px;
+      background: #FFFFFF;
+      border: 1px solid #3B5998;
+      box-sizing: border-box;
+      border-radius: 4px;
+ 
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-size: 14px;
+      line-height: 18px;
+      color: #3B5998;
+}
+.btn1 .img1{
+  width: 18px;
+height: 18px;
+}
+
+
+.btn2{
+  width: 150px;
+  height: 50px;
   background: #FFFFFF;
   border: 1px solid #1DA1F2;
   box-sizing: border-box;
   border-radius: 4px;
- 
+
   font-family: 'Product Sans';
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   color: #747D8C;
 }
+.conten h5 {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #292d32;
+}
+.conten h3 {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #747d8c;
+}
 
+.conten label {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1e272e;
+}
+.conten .placeholder {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1e272e;
+}
+.mobile-text {
+  color: #989696b8;
+  font-size: 15px;
+}

@@ -149,19 +149,20 @@ function HaveSquad() {
           </div>
         </div>
 
-        <div className=" col-md-6 navs mx-auto mt-5 bottom ">
+                    <div className="col-md-6  navs mx-auto mt-5 bottom " id="navs">
                         <div className="card mx-auto">
                             <div className="card-body">
-                                <div className=" d-flex flex-row justify-content-between mt-2 pt-1">
-                                    <Link to="/homepage"><img src={home1} alt="home-1"/><span class="d-block">Home</span></Link>
-                                    <Link to="/tournament"><img src={tournament1} alt="tournament-1"/><span class="d-block">Tournament</span></Link>
-                                    <Link to="/have-squad"><img src={squad2} alt="squad-2"/><span class="d-block">Squad</span></Link>
-                                    <Link to="/leaderboard"><img src={leaderboard1} alt="leaderboard-1"/><span class="d-block">Leaderboard</span></Link>
-                                    <Link to="/profile"><img src={profile1} alt="profile-1"/><span class="d-block">Profile</span></Link>
+                                <div className=" d-flex flex-row justify-content-between mt-2 pt-1" >
+                                    <Link to="/homepage" class="btn "><img src={home1} alt="home-1"/><span>Home</span></Link>
+                                    <Link to="/tournament" class="btn "><img src={tournament1} alt="tournament-1"/><span  >Tournament</span></Link>
+                                    <Link to="/have-squad" class="btn active"><img src={squad2} alt="squad-2"/><span  class="color-active">Squad</span></Link>
+                                    <Link to="/leaderboard" class="btn"><img src={leaderboard1} alt="leaderboard-1"/><span >Leaderboard</span></Link>
+                                    <Link to="/profile" class="btn"><img src={profile1} alt="profile-1"/><span >Profile</span></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
+
         </main>
       </>
     </>
