@@ -3,6 +3,8 @@ import "./detailTournament.css";
 import gambar1 from "../img/gambar1.svg";
 import mobileLegend from "../img/mobilelegend.svg";
 import dolarkuning from "../img/dolarkuning.svg";
+import star1 from "../img/Star 1.svg";
+import star5 from "../img/Star 5.svg";
 
 function  detailTournament () {
     return (
@@ -31,7 +33,7 @@ function  detailTournament () {
                         <img src={dolarkuning} class="img2 ml-5 " /> 
                          <h3>5 Point</h3>
                          <div class=" ml-auto">
-                            <div class="row">
+                            <div class="row" style={{ marginTop: '-5px'}}> 
                                 <div class="d-flex flex-row mr-2">
                                     <button type="button" class="btn btn1 ml-auto  ">Umum</button>
                                 </div>
@@ -40,6 +42,9 @@ function  detailTournament () {
                                 </div>
                             </div>
                          </div>
+                    </div>
+                    <div class="d-flex flex-row ml-4 pl-3 imgstart">
+                        <img src={star1} alt="" style={{ marginRight: '-35px'}}/> <img src={star1}alt="" style={{ marginRight: '-35px'}}/> <img src={star1} alt="" style={{ marginRight: '-35px'}}/> <img src={star5} alt="" style={{ marginRight: '-35px'}}/> <img src={star5} alt=""/>
                     </div>
                 </div>
              </div>
