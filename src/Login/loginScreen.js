@@ -69,10 +69,10 @@ function loginScreen() {
               <div class="col-md-9 mx-auto">
                 <div class="d-flex flex-row justify-content-around ">
                     <div class="d-flex flex-row  mr-2">
-                      <Link to=""><button type="button" class="btn btn1 d-flex flex-row  pt-3 "><img src={facebook} alt="" class="img1 mx-auto"/> <span>Facebook</span> </button></Link>
+                      <Link to=""><button type="button" class="btn btn1 d-flex flex-row  pt-3 "><img src={facebook} alt="" class="img1 mx-auto"/> <span style={{ marginRight: '20px' , marginLeft: '-25px'}}>Facebook</span> </button></Link>
                     </div>
-                    <div class="d-flex flex-row  ml-2">
-                    <Link to=""><button type="button" class="btn btn2 d-flex flex-row  pt-3"><img src={google} alt="" />  <span class="img2 mx-auto">Google</span></button></Link>                                  
+                    <div class="d-flex flex-row  mr-2">
+                      <Link to=""><button type="button" class="btn btn2 d-flex flex-row  pt-3 "><img src={google} alt="" class="img2 mx-auto" /> <span style={{ marginRight: '25px' , marginLeft: '-30px'}}>Google</span> </button></Link>
                     </div>
                 </div>
               </div>
