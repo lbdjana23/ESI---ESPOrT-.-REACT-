@@ -13,12 +13,14 @@ import Homepage from "./Homepage/homePage";
 import NotHaveSquad from "./SquadPage/notHaveSquad";
 import HaveSquad from "./SquadPage/haveSquad";
 import LoginScreen from "./Login/loginScreen";
+import ForgotPass from "./Login/forgotPass";
+import EmailNotif from "./Login/emailNotify";
+import CreateNewPass from "./Login/CreateNewPass";
+import EmailSucses from "./Login/emailSucses";
 import TermsCondition from "./Register/termsCondition";
 import ForgotPassword from "./ForgotPassword/forgotPassword";
-import EmailNotify from "./ForgotPassword/emailNotify";
 import CreateNewPassword from "./ForgotPassword/createNewPassword";
 import InputCode from "./ForgotPassword/inputCode";
-import EmailNotify2 from "./ForgotPassword/emailNotify2";
 import Tournament from "./Tournament/tournament";
 import Profile from "./Profile/profile";
 import Leaderboard from "./Leaderboard/leaderboard";
@@ -36,6 +38,10 @@ export default function App() {
         <Route path="/open2" element={<OpeningScreen2 />} />
         <Route path="/open3" element={<OpeningScreen3 />} />
         <Route path="/login" element={<LoginScreen />} />
+        <Route path="/forgotPass" element={<ForgotPass />} />
+        <Route path="/emailNotify" element={<EmailNotif />} />
+        <Route path="/createNewPass" element={<CreateNewPass />} />
+        <Route path="/emailSucses" element={<EmailSucses />} />
         <Route path="/register" element={<RegisterScreen />} />
         <Route path="/register-failed" element={<RegisterScreenFail />} />
         <Route path="/homepage-not-squad" element={<HomepagenotSquad />} />
@@ -46,10 +52,8 @@ export default function App() {
         <Route path="/not-have-squad" element={<NotHaveSquad />} />
         <Route path="/have-squad" element={<HaveSquad />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
-        <Route path="/email-notify" element={<EmailNotify />} />
         <Route path="/input-code" element={<InputCode />} />
         <Route path="/create-password" element={<CreateNewPassword />} />
-        <Route path="/email-notify2" element={<EmailNotify2 />} />
         <Route path="/tournament" element={<Tournament/>}/>
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/leaderboard" element={<Leaderboard/>}/>

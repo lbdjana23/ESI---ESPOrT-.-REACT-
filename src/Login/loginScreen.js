@@ -56,7 +56,7 @@ function loginScreen() {
               </form>
 
               <div class="mt-3 mb-3">
-                <Link to="/forgot-password">Lupa Kata Sandi?</Link>
+                <Link to="/forgotPass">Lupa Kata Sandi?</Link>
               </div>
 
               
