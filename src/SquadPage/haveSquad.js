@@ -23,12 +23,12 @@ import createSquad from "../Picture/create-squad.svg";
 import search from "../Picture/search.svg";
 import NavBar from "../Navbar/navigationBar";
 import Left from "../img/left.svg";
-import People from "../img/People.svg";
+import AnggotaS from "../img/AnggotaS.svg";
 import Usercirlceadd from "../img/user-cirlce-add.svg";
 import spaceSquad from "../Picture/space-squad.svg";
 import test from "../img/test.jpg";
 import statitikSquad from "../img/statitikSquad.svg";
-import logout from "../img/logout.svg";
+import KeluarS from "../img/KeluarS.svg";
 
 
 function HaveSquad() {
@@ -37,7 +37,7 @@ function HaveSquad() {
       <>
         <main>
           
-        <div class="col-md-12 content mx-auto konten">
+        <div class="col-md-12 content11 mx-auto konten11">
           <div class="col-md-6 mx-auto">
             <div class="d-flex flex-row mx-auto justify-content-between mb-1">
                   <Link to="/homepage"><img src={Left} alt="Left" class="img-1"/></Link>
@@ -50,23 +50,22 @@ function HaveSquad() {
             <div class="mt-4 mx-auto text-center">
               <center>
 
-                <h2 class=" d-flex flex-row mx-auto">Squid Squad<img src={verifiedBlue} class="img3 "/></h2>
+                <h2 class=" d-flex flex-row mx-auto ">Squid Squad<img src={verifiedBlue} class="img3 "/></h2>
               </center>
                 <h3 class="mb-3 mt-3">ID4R2632379</h3>
             </div>
-            
           </div>            
               <div class=" row justify-content-center mx-auto ">
                 <div class="info-panel">                 
                   <div class="row ">
                     <div class="col">
-                      <center><Link to=""><img src={People} alt="people" /></Link></center>
+                      <center><Link to=""><img src={AnggotaS} alt="AnggotaS" /></Link></center>
                     </div>
                     <div class="col">
                       <center><Link to=""><img src={statitikSquad} alt="statitikSquad" /></Link></center>
                     </div>
                     <div class="col">
-                      <center><Link to=""><img src={logout} alt="logout" /></Link></center>
+                      <center><Link to=""><img src={KeluarS} alt="KeluarS" /></Link></center>
                     </div>
                   </div>
                 </div>

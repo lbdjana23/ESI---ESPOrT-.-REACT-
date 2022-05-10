@@ -72,7 +72,7 @@ function loginScreen() {
                       <Link to=""><button type="button" class="btn btn1 d-flex flex-row  pt-3 "><img src={facebook} alt="" class="img1 mx-auto"/> <span>Facebook</span> </button></Link>
                     </div>
                     <div class="d-flex flex-row  ml-2">
-                    <Link to=""><button type="button" class="btn btn2 d-flex flex-row  "><img src={google} alt="" />  <span class="img2">Google</span></button></Link>                                  
+                    <Link to=""><button type="button" class="btn btn2 d-flex flex-row  pt-3"><img src={google} alt="" />  <span class="img2 mx-auto">Google</span></button></Link>                                  
                     </div>
                 </div>
               </div>

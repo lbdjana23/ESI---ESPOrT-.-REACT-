@@ -20,6 +20,7 @@ import test from "../img/test.jpg";
 import centangbirru from "../img/centangbirru.svg";
 import Ellipsesvg from "../img/Ellipsesvg.svg";
 import tiga from "../img/tiga.svg";
+import TabsProfile from "../Profile/TabsProfile";
 import logokotabali from "../img/logo kota bali.svg";
 
 function Profile(){
@@ -28,7 +29,7 @@ function Profile(){
             <>
                 <main>
                    
-                <div class="col-md-12 content mx-auto konten ">
+                <div class="col-md-12 contentP mx-auto konten ">
                     <div class="col-md-10 mx-auto">
                         <div class="d-flex flex-row mx-auto justify-content-between mb-1 mt-3">
                             <img src={edit} alt=""class="img-1"/>
@@ -60,7 +61,7 @@ function Profile(){
                     </div>
                 </div>
 
-                
+                <TabsProfile/>
 
                 <div className="col-md-6  navs mx-auto mt-5 bottom " id="navs">
                         <div className="card mx-auto">

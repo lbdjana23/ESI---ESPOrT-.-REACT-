@@ -40,7 +40,7 @@ function RegisterTournament(){
                                 <input type="text" class="form-control" id="inputIdAnggota1" placeholder="Cth. 08123456789" />
                             </div>
                         </form>
-                        <Link to=""><button type="button" class="btn1 mt-3"><b>DAFTAR</b></button></Link>
+                        <Link to="/responRegisTurnament"><button type="button" class="btn1 mt-3"><b>DAFTAR</b></button></Link>
                     </div>
                 </main>
             </>

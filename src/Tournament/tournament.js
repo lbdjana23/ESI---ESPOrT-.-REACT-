@@ -43,7 +43,7 @@ function Tournament(){
 
                     
 
-                    <div class="col-md-6 mx-auto mt-5 konten1 " style={{ width: '284px', height: '380px' }}>
+                    <div class="col-md-6 mx-auto mt-5 konten_1 " style={{ width: '284px', height: '380px' }}>
                         <div class="card  mx-auto"  >
                             <img src={walikota} class="card-img-top img-1 " alt="..." style={{ width: '284px', height:'128px', marginTop:"-1px", marginLeft: '-15px' }}/>
                                 <div class="card-body" >
@@ -66,14 +66,14 @@ function Tournament(){
                                         </div>
                                         <div class="d-flex flex-row justify-content-center mt-3 " style={{  marginBottom:"-30px"}}>
                                             <Link to="/registerTournament"><button type="button" class="btn btn1">DAFTAR</button></Link>
-                                            <Link to=""><button type="button" class="btn btn2 ml-3"> DETAIL</button></Link>                                           
+                                            <Link to="/detailTournament"><button type="button" class="btn btn2 ml-3"> DETAIL</button></Link>                                           
                                         </div>
                                 </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mx-auto mt-5 konten1 mb-5" style={{ width: '284px', height: '380px' }}>
+                    <div class="col-md-6 mx-auto mt-5 konten_1 mb-5" style={{ width: '284px', height: '380px' }}>
                         <div class="card  mx-auto"  >
-                            <div class="card cards " >
+                            <div class="card cards " style={{background: 'none'}}>
                                 <button  class="btn btn3" >Free</button>
                             </div>
                             <img src={walikota} class="card-img-top img-1 " alt="..." style={{ width: '284px', height:'128px', marginTop:"-70px", marginLeft: '-15px' }}/>

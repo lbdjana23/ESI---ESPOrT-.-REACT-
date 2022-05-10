@@ -4,20 +4,24 @@
     text-decoration: none !important;
     list-style-type: none !important;
   }
-  .content {
+  .content11 {
     padding-top: 25px;
   }
   .card{
       border: none;
   }
-  .konten{
+  .konten11 .img-1{
+    width: 26px;
+    height: 26px;
+  }
+  .konten11{
     background: linear-gradient( #A8091E, #EC2028 );
     border: 1px solid #F3001F;
     box-sizing: border-box;
     width: 100%;
   }
 
-  .konten h1{ 
+  .konten11 h1{ 
     font-family: 'Product Sans';
     font-style: normal;
     font-weight: 400;
@@ -28,32 +32,28 @@
     color: #FFFFFF;
   }
 
-  .konten h2{
-    width:200px;
+  .konten11 h2{
+    width: 190px;
     height: 29px;
     font-family: 'Product Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-    
     color: #FFFFFF;
   }
 
-  .konten h3{
+  .konten11 h3{
     
     font-family: 'Product Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-
     color: #E6E6E6;
   }
 
-  .konten h4{
+  .konten11 h4{
     font-family: Product Sans;
     font-style: normal;
     font-weight: normal;
@@ -62,40 +62,24 @@
     text-align: center;
     color: #FFFFFF;
   }
-  .konten .img1{
+  .konten11 .img1{
       width: 75px;
       height: 75px;
       border-radius: 50%;
   }
-  .konten .img3{
+  .konten11 .img3{
     width: 16px;
-    height: 16p;
+    height: 16px;
+    margin-top: 7px;
+    margin-left: -10px;
   }
 
-  .konten1{
-    width: 650px;
-    height: 130px;
-    margin-top: -70px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
+  .konten11 .img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
   }
-
-  .konten1 h1{
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 22px;
-    text-align: center;
-    color: #B0B0B0;
-    margin-top: 10px;
-  }
-
-  .konten1 img{
-      margin-top: 30px;
-      width: 40px;  
-  }
+  
 
   .konten2 h1{
     font-family: Product Sans;
@@ -202,390 +186,3 @@
     color: #F3001F;
 }
 
-/* Media Query */
-
-@media only screen and (min-width: 768px) and (max-width: 838px){
-    .konten h1{ 
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 30px;
-        line-height: 30px;
-        text-align: center;
-        color: #FFFFFF;
-      }
-    
-      .konten h2{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 28px;
-        color: #FFFFFF;
-      }
-    
-      .konten h3{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 20px;
-        color: #B0B0B0;
-      }
-    
-      .konten h4{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 18px;
-        text-align: center;
-        color: #FFFFFF;
-      }
-      .konten .img1{
-          width: 75px;
-          height: 75px;
-          border-radius: 50%;
-      }
-
-      .konten2 h1{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 27px;
-        line-height: 33px;
-        color: #000000;
-      }
-    
-      .konten2 h2{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 23px;
-        line-height: 23px;
-        color: #B0B0B0;
-      }
-    
-      .konten2 .img1{
-          width: 38px;
-          margin-top: 39px;
-      }
-}
-
-
-@media only screen and (min-width: 500px) and (max-width: 608px){
-    .konten h1{ 
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 20px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-top: 10px;
-      }
-    
-      .konten h2{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 18px;
-        color: #FFFFFF;
-      }
-    
-      .konten h3{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 15px;
-        color: #B0B0B0;
-      }
-    
-      .konten h4{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        line-height: 13px;
-        text-align: center;
-        color: #FFFFFF;
-      }
-      .konten .img1{
-          width: 75px;
-          height: 75px;
-          border-radius: 50%;
-      }
-    
-      .konten1{
-        width: 650px;
-        height: 130px;
-        margin-top: -70px;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
-        border-radius: 4px;
-      }
-    
-      .konten1 h1{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 15px;
-        text-align: center;
-        color: #B0B0B0;
-        margin-top: 10px;
-      }
-    
-      .konten1 img{
-          margin-top: 36px;
-          width: 30px;  
-      }
-
-      .konten2 h1{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 23px;
-        color: #000000;
-      }
-    
-      .konten2 h2{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 15px;
-        color: #B0B0B0;
-      }
-    
-      .konten2 .img1{
-          width: 25px;
-          margin-top: 10px;
-      }
-}
-
-@media only screen and (min-width: 250px) and (max-width: 499px){
-    .konten h1{ 
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 19px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-top: 7px;
-      }
-    
-      .konten h2{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 25px;
-        color: #FFFFFF;
-      }
-    
-      .konten h3{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 15px;
-        color: #B0B0B0;
-      }
-    
-      .konten h4{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 19px;
-        text-align: center;
-        color: #FFFFFF;
-      }
-      .konten .img1{
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-      }
-    
-      .konten1{
-        width: 550px;
-        height: 100px;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
-        border-radius: 4px;
-        margin-top: -50px;
-      }
-    
-      .konten1 h1{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        text-align: center;
-        color: #B0B0B0;
-        margin-top: 10px;
-      }
-    
-      .konten1 img{
-          width: 14px;
-      }
-    
-      .konten2 h1{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 17px;
-        color: #000000;
-
-      }
-    
-      .konten2 h2{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        color: #B0B0B0;
-      }
-    
-      .konten2 .img1{
-        width: 20px;          
-        margin-top: 30px;
-      }
-    
-      .konten3_btn{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        background: #F1F2F6;
-        border-radius: 16px;
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        display: flex;
-        align-items: center;
-        color: #1E272E;
-        margin-bottom: 20px;
-       
-      }
-    
-      .konten3_btn:hover{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 8px 12px;
-        background: rgba(243, 0, 31, 0.1);
-        border-radius: 16px;
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 16px;
-        display: flex;
-        align-items: center;
-        color: #F3001F;
-      }
-    
-      .konten3 .img2{
-          width: 55px;
-          height: 55px;
-          border-radius: 50%;
-          margin-top: 15px;
-      }
-    
-      .konten3 h1{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 25px;
-        color: #000000;
-      }
-    
-      .konten3 h2{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 20px;
-        color: #B0B0B0;
-      }
-    .konten3 .btn{
-        justify-content: center;
-        align-items: center;
-        background: #E4E5EA;
-        border-radius: 4px;  
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        color: #747D8C;
-    }
-    
-    .konten4 a{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 15px;
-        text-align: center;
-        color: #F3001F;
-    }
-}
-
-@media only screen and (min-width: 250px) and (max-width: 355px){
-    .konten3 .img2{
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin-top: 15px;
-    }
-  
-    .konten3 h1{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 13px;
-        color: #000000;
-    }
-  
-    .konten3 h2{
-        font-family: Product Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 10px;
-        
-        color: #B0B0B0;
-    }
-  .konten3 .btn{
-    width: 55px;
-    height: 50px;
-    background: #E4E5EA;
-    border-radius: 4px;
-    margin-left: 30px;
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    color: #747D8C;
-  }
-
-  .konten3 .img3{
-      width: 10px;
-  }
-  .konten4 a{
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 10px;
-    text-align: center;
-    color: #F3001F;
-}
-}

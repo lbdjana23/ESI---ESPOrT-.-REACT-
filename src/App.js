@@ -25,6 +25,8 @@ import Leaderboard from "./Leaderboard/leaderboard";
 import Load from "./OpeningScreen/load";
 import BuatSquad from "./SquadPage/buatSquad";  
 import RegisterTournament from "./Tournament/registerTournament";
+import ResponRegisTurnament from "./Tournament/responRegisTurnament";
+import Detailtournament from "./Tournament/detailTournament";
 export default function App() {
   return (
     <div className="App">
@@ -53,6 +55,8 @@ export default function App() {
         <Route path="/leaderboard" element={<Leaderboard/>}/>
         <Route path="/buatSquad" element={<BuatSquad/>}/>
         <Route path="/registerTournament" element={<RegisterTournament/>}></Route>
+        <Route path="/responRegisTurnament" element={<ResponRegisTurnament/>}></Route>
+        <Route path="/detailTournament" element={<Detailtournament/>}></Route>
       </Routes>
     </div>
   );
