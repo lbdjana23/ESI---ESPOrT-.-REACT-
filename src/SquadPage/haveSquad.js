@@ -47,12 +47,12 @@ function HaveSquad() {
             <center>
                 <img src={test} alt="" class="img2  mt-4"/>
             </center>
-            <div class="mt-4 mx-auto text-center">
+            <div class="mt-4 mx-auto ">
               <center>
 
                 <h2 class=" d-flex flex-row mx-auto ">Squid Squad<img src={verifiedBlue} class="img3 "/></h2>
               </center>
-                <h3 class="mb-3 mt-3">ID4R2632379</h3>
+                <h3 class="mb-3 mt-3" align="center">ID4R2632379</h3>
             </div>
           </div>            
               <div class=" row justify-content-center mx-auto ">
@@ -72,10 +72,10 @@ function HaveSquad() {
               </div>
         </div>
         <div class="col-md-6 mx-auto kontencr">
-            <h1 class="mt-5 pt-4 ml-4 pl-5  mb-3 ">
+            <h1 class="mt-5 pt-4 ml-4  mb-3 ">
               Temukan Squad Lainnya!
             </h1>
-            <div class="ml-5 pl-4">      
+            <div class="ml-4 ">      
                 <input type="cari" name="search" placeholder="Cari squad mu ..." ></input>
             </div>  
         </div>
@@ -83,9 +83,9 @@ function HaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={squidSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
-                    <h1 class="  d-flex flex-row ">Squid Squad <img src={verifiedBlue}   class="img5 mt-1"/></h1> 
+                  <img src={squidSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
+                    <h1 class="  d-flex flex-row ">Squid Squad <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >14562390</h2>
                   </div>
                 </div>
@@ -95,8 +95,8 @@ function HaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={sikoSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
+                  <img src={sikoSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
                     <h1 class="  d-flex flex-row ">siko Squad <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >12303456</h2>
                   </div>
@@ -107,8 +107,8 @@ function HaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={kapakSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
+                  <img src={kapakSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
                     <h1 class="  d-flex flex-row ">Kapak Squad  <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >56095673</h2>
                   </div>
@@ -119,8 +119,8 @@ function HaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={sikoSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
+                  <img src={sikoSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
                     <h1 class="  d-flex flex-row ">siko Squad <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >12303456</h2>
                   </div>
@@ -131,8 +131,8 @@ function HaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={kapakSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
+                  <img src={kapakSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
                     <h1 class="  d-flex flex-row ">Kapak Squad  <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >56095673</h2>
                   </div>

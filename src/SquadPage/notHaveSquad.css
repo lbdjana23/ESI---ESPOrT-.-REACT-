@@ -4,18 +4,18 @@
   text-decoration: none !important;
   list-style-type: none !important;
 }
-.content {
+.contentns {
   padding-top: 25px;
 }
 .card{
     border: none;
 }
-.konten{
+.kontenns{
   background: linear-gradient( #A8091E, #EC2028 );
   border: 1px solid #F3001F;
   box-sizing: border-box;
 }
-.konten h1{
+.kontenns h1{
  
   font-family: 'Product Sans';
   font-style: normal;
@@ -27,23 +27,23 @@
 
 }
 
-.konten .img-1{
+.kontenns .img-1{
   width: 26px;
   height: 26px;
 }
 
-.konten .img2{
+.kontenns .img2{
     width: 50px;
     height: 50px;
     border-radius: 100%;
 }
 
-.konten .img3{
+.kontenns .img3{
     width: 20px;
     height: 20px;
 }
 
-.konten h2{
+.kontenns h2{
   font-family: 'Product Sans';
   font-style: normal;
   font-weight: bold;
@@ -52,7 +52,7 @@
   color: #FFFFFF;
 }
 
-.konten h3{
+.kontenns h3{
   font-family: 'Product Sans';
   font-style: normal;
   font-weight: bold;
@@ -61,7 +61,7 @@
   color: #B0B0B0;
 }
 
-.konten h4{
+.kontenns h4{
     
   font-family: 'Product Sans';
   font-style: normal;
@@ -75,7 +75,7 @@
 .info-panel{
   
   margin-bottom: -40px;
-  width: 500px;
+  width: 600px;
   height: 100px;
   background: #FFFFFF;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
@@ -100,7 +100,7 @@
 }
 
 input[type=cari]{
-  width: 200px;
+  width: 250px;
   height: 40px;
   border: none;
   background-image: url('../img/search.svg');
@@ -229,7 +229,16 @@ color: #000000;
   line-height: 19px;
   color: #292D32;
 }
+.kontenkins h1{
+  font-family: 'Product Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
 
+color: #ED8A90;
+}
 .konten4 h2{
   font-family: 'Product Sans';
   font-style: normal;

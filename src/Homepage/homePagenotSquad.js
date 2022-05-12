@@ -198,6 +198,9 @@ function HomepagenotSquad() {
             </div>
         </div>
 
+        
+
+
         <div className="col-md-6  navs mx-auto mt-5 bottom " id="navs">
                         <div className="card mx-auto">
                             <div className="card-body">

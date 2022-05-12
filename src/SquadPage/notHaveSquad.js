@@ -23,7 +23,7 @@ import createSquad from "../Picture/create-squad.svg";
 import search from "../Picture/search.svg";
 import NavBar from "../Navbar/navigationBar";
 import Left from "../img/left.svg";
-import People from "../img/People.svg";
+import people from "../img/People.svg";
 import Usercirlceadd from "../img/user-cirlce-add.svg";
 
 
@@ -35,7 +35,7 @@ function NotHaveSquad() {
       <>
         <main>
           
-        <div class="col-md-12 content mx-auto konten">
+        <div class="col-md-12 contentns mx-auto kontenns">
           <div class="col-md-6 mx-auto">
             <div class="d-flex flex-row mx-auto justify-content-between mb-1">
                   <Link to="/homepage-not-squad"><img src={Left} alt="Left" class="img-1"/></Link>
@@ -45,28 +45,30 @@ function NotHaveSquad() {
             <center>
                   <img src={sad} alt="sad" class="img2  mt-4"/>
             </center>
-            <div class="kontenki mt-3 mb-3">
+            <div class="kontenkins mt-3 mb-3">
               <h1 >Anda belum memiliki <br></br> Squad </h1>
             </div>
           </div>            
               <div class=" row justify-content-center mx-auto ">
                 <div class="info-panel">                 
                   <div class="row ">
-                    <div class="col">
-                      <center><Link to=""><img src={People} alt="people" /></Link></center>
-                    </div>
-                    <div class="col">
-                      <center><Link to="/buatSquad"><img src={Usercirlceadd} alt="usercirlceadd" /></Link></center>
-                    </div>
+                  <div class="col">
+                          <center><img src={people} /></center>
+                          <h1>Gabung Squad</h1>
+                        </div>
+                        <div class="col">
+                          <center><img src={Usercirlceadd}/></center>
+                          <h1>Buat Squad</h1>
+                        </div>
                   </div>
                 </div>
               </div>
         </div>
         <div class="col-md-6 mx-auto kontencr">
-            <h1 class="mt-5 pt-4 ml-4 pl-5  mb-3 ">
+            <h1 class="mt-5 pt-4 ml-4  mb-3 ">
               Temukan Squad Lainnya!
             </h1>
-            <div class="ml-5 pl-4">      
+            <div class="ml-4 ">      
                 <input type="cari" name="search" placeholder="Cari squad mu ..." ></input>
             </div>  
         </div>
@@ -74,8 +76,8 @@ function NotHaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={squidSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
+                  <img src={squidSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
                     <h1 class="  d-flex flex-row ">Squid Squad <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >14562390</h2>
                   </div>
@@ -86,8 +88,8 @@ function NotHaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={sikoSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
+                  <img src={sikoSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
                     <h1 class="  d-flex flex-row ">siko Squad <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >12303456</h2>
                   </div>
@@ -98,8 +100,8 @@ function NotHaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={kapakSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
+                  <img src={kapakSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
                     <h1 class="  d-flex flex-row ">Kapak Squad  <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >56095673</h2>
                   </div>
@@ -110,8 +112,8 @@ function NotHaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={sikoSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
+                  <img src={sikoSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
                     <h1 class="  d-flex flex-row ">siko Squad <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >12303456</h2>
                   </div>
@@ -122,8 +124,8 @@ function NotHaveSquad() {
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-row">  
-                  <img src={kapakSquad} alt="squidSquad"  class="img4"/>
-                  <div class="ml-3 mt-2">
+                  <img src={kapakSquad} alt="squidSquad"  class="img4 ml-4"/>
+                  <div class="ml-4 mt-2">
                     <h1 class="  d-flex flex-row ">Kapak Squad  <img src={verifiedBlue}   class="img5"/></h1> 
                     <h2  >56095673</h2>
                   </div>

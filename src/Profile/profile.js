@@ -5,6 +5,7 @@ import setting from "../img/setting.svg";
 import "../Profile/profile.css";
 import NavBar from "../Navbar/navigationBar";
 import profile1 from "../img/profile-1.svg";
+import Camera from "../img/camera.svg";
 import leaderboard1 from "../img/leaderboard-1.svg";
 import squad1 from "../img/squad-1.svg";
 import tournament1 from "../img/tournament-1.svg";
@@ -32,17 +33,48 @@ function Profile(){
                 <div class="col-md-12 contentP mx-auto konten ">
                     <div class="col-md-10 mx-auto">
                         <div class="d-flex flex-row mx-auto justify-content-between mb-1 mt-3">
-                            <img src={edit} alt=""class="img-1"/>
+                            <img src={edit} alt=""class="img-1"data-toggle="modal" data-target="#profile"/>
+                            {/* <!-- Modal --> */}
+                            <div class="modal" id="profile" tabindex="-1" aria-labelledby="profileLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                       <center> <hr ></hr></center>
+                                        <div>
+                                        <h1>EDIT  PROFIL ANDA</h1>
+                                        </div>
+                                        <center><img src={charles} class="" alt=""/></center>
+                                        <img src={Camera} class=" img-7" alt=""/>
+                                        </div>
+                                        <form>
+                                        <div class="form-group">
+                                            <label for="nama">Nama</label>
+                                            <input type="text3" class="form-control" id="nama" placeholder="Charles"/>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-around config">
+                                            <div class="d-flex flex-row  mr-2">
+                                            <a href=""><button type="button" class="btn btnbtl"> <span>Batal</span> </button></a>
+                                            </div>
+                                            <div class="d-flex flex-row  ml-2">
+                                            <a href=""><button type="button" class="btn btnsmpn "> <span>Simpan</span></button></a>                                            
+                                            </div>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
                             <img src={setting} alt="" class="img-1" />
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 mx-auto mt-5 konten ">
                     <center><img src={charles} alt="" class="mt-5 "/></center>
-                    <h1 align="center">Charles</h1>
-                    <center>
-                        <h2 class="d-flex flex-row " align="center">0222222333 <img src={copy} class="img-2 " alt=""/></h2>
-                    </center>     
+                    <h1 >Charles</h1>
+                    <div class="d-flex flex-row mx-auto ml-5">
+                   <h2 className="d-flex flex-row mx-auto ">0222222333 <img src={copy} class="img-2 " alt=""/></h2>
+                    </div>
+                       
                 </div>
                 <div class="col-md-6 mx-auto mt-5 konten2 ">
                     <div class="card mx-auto">

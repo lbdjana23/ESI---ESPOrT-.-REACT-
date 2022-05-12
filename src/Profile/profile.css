@@ -263,13 +263,13 @@
   }
 
   .konten .modal-body .img-7{
-    margin-left: 178px;
-    margin-top: -50px;
+    margin-left: 160px;
+    margin-top: -26px;
     width: 25px;
-height: 25px;
+    height: 25px;
   }
 
-  .konten .modal-body .btn1{
+  .konten .modal-body .config .btnbtl{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -278,16 +278,16 @@ height: 25px;
     height: 41px;
     background: #E4E5EA;
     border-radius: 4px;
-
     font-family: 'Product Sans';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 17px;
+
     color: #747D8C;
   }
 
-  .konten .modal-body .btn2{
+  .konten .modal-body .config .btnsmpn{
     display: flex;
     flex-direction: column;
     align-items: center;
