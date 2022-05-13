@@ -76,7 +76,7 @@ function HaveSquad() {
               Temukan Squad Lainnya!
             </h1>
             <div class="ml-4 ">      
-                <input type="cari" name="search" placeholder="Cari squad mu ..." ></input>
+                <input type="cari1" name="search" placeholder="Cari squad mu ..." ></input>
             </div>  
         </div>
              
@@ -90,7 +90,7 @@ function HaveSquad() {
                   </div>
                 </div>
             </div>
-          <button type="submit" class="btn btn6">Gabung</button>
+          <button type="submit" class="btn btn6" >Sparing</button>
         </div>
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
@@ -102,7 +102,7 @@ function HaveSquad() {
                   </div>
                 </div>
             </div>
-          <button type="submit" class="btn btn6">Gabung</button>
+          <button type="submit" class="btn btn6">Sparing</button>
         </div>
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
@@ -114,7 +114,7 @@ function HaveSquad() {
                   </div>
                 </div>
             </div>
-          <button type="submit" class="btn btn6">Gabung</button>
+          <button type="submit" class="btn btn6">Sparing</button>
         </div>
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
@@ -126,7 +126,7 @@ function HaveSquad() {
                   </div>
                 </div>
             </div>
-          <button type="submit" class="btn btn6">Gabung</button>
+          <button type="submit" class="btn btn6">Sparing</button>
         </div>
         <div class="col-md-6 mx-auto d-flex flex-row justify-content-between kontengb mt-3 mb-3">
             <div class="d-flex flex-row">
@@ -138,7 +138,7 @@ function HaveSquad() {
                   </div>
                 </div>
             </div>
-          <button type="submit" class="btn btn6">Gabung</button>
+          <button type="submit" class="btn btn6">Sparing</button>
         </div>
         <div class="col-md-6  mx-auto konten3">
           <div>
@@ -150,8 +150,8 @@ function HaveSquad() {
 
                     <div className="col-md-6  navs mx-auto mt-5 bottom " id="navs">
                         <div className="card mx-auto">
-                            <div className="card-body">
-                                <div className=" d-flex flex-row justify-content-between mt-2 pt-1" >
+                            <div className="card-body mx-auto">
+                                <div className=" d-flex flex-row justify-content-between mt-2 pt-1 mx-auto" >
                                     <Link to="/homepage" class="btn "><img src={home1} alt="home-1"/><span>Home</span></Link>
                                     <Link to="/tournament" class="btn "><img src={tournament1} alt="tournament-1"/><span  >Tournament</span></Link>
                                     <Link to="/have-squad" class="btn active"><img src={squad2} alt="squad-2"/><span  class="color-active">Squad</span></Link>

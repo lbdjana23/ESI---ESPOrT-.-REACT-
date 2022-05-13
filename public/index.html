@@ -54,25 +54,23 @@
   </head>
 
   <body>
-      <script>
-      $(function() {
-         $(".loader").fadeOut(3500, function(){
-           $(".content").fadeIn(1500);
-         });
-      });
-     </script> 
-
     <script>
-      var btn = document.getElementById("navs");
-      var btns = btn.getElementsByClassName("btn");
-
-      for(var i =0; i<btns.length; i++){
-        btns[i].addEventListener('click', function(){
-          var current =document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace("active");
-          this.className += "active";
-        })
-      }
+      const tabs = document.querySelectorAll('[data-tab-target]')
+  const tabContents = document.querySelectorAll('[data-tab-content]')
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = document.querySelector(tab.dataset.tabTarget)
+      tabContents.forEach(tabContent => {
+        tabContent.classList.remove('active')
+      })
+      tabs.forEach(tab => {
+        tab.classList.remove('active')
+      })
+      tab.classList.add('active')
+      target.classList.add('active')
+    })
+  })
     </script>
      
 
