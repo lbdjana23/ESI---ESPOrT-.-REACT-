@@ -37,7 +37,6 @@ body {
   align-items: center;
   justify-content: center;
   position: fixed;
-  z-index: 99999;
   
 }
 .loader .img2{
@@ -57,33 +56,22 @@ body {
       visibility: hidden;
     }
   }
-  
-@keyframes loading {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 
 
 .contain {
   border-radius: 24px !important;
-  width: 360px;
+  
   display: flex;
   margin: 0 auto;
-  min-height: 640px;
+ 
 }
-.content {
+.ops {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 85%;
+ 
 }
-.content a {
+.ops a {
   font-family: 'Product Sans';
   font-style: normal;
   font-weight: 700;
@@ -91,7 +79,7 @@ body {
   line-height: 17px;
   color: #747D8C;
 }
-.content a:hover {
+.ops a:hover {
   color: #000000;
 }
 .wrapper img {
@@ -101,21 +89,21 @@ body {
   min-width: 50px;
   margin-bottom: 217px;
 }
-.content h2 {
+.ops h2 {
   color: #f3001f;
   font-size: 24px;
   margin-bottom: 15px;
 }
-.content h5 {
+.ops h5 {
   color: #7d7e7f;
   font-size: 14px;
   text-align: center;
   margin-bottom: 55px;
 }
-.content p {
+.ops p {
   font-size: 10px;
 }
-.content button {
+.ops button {
   display: flex;
   margin: 0 auto;
   max-width: 100%;
@@ -127,11 +115,43 @@ body {
   border-radius: 4px;
   margin-bottom: 40px;
 }
-.content button:hover {
+.ops button:hover {
   background-color: #ec2028;
   color: #ffffff;
 }
 .wrapper {
   width: 100%;
 }
-
+/* .carousel {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carousel .card {
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 250px;
+  font-size: 90px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot {
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #0072bc !important;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: #0072bc !important;
+} */

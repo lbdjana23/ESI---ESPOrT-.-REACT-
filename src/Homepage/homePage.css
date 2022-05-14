@@ -35,7 +35,7 @@ body {
 }
 
 .kontensd h1{
-  margin-left: -20px;
+  
   font-family: 'Product Sans';
   font-style: normal;
   font-weight: 400;
@@ -46,7 +46,6 @@ body {
 }
 
 .kontensd h2{
-  margin-left: -20px;
   font-family: 'Product Sans';
   font-style: normal;
   font-weight: 400;
@@ -56,15 +55,15 @@ body {
 }
 
 .kontensd .img1{
-  margin-left: -15px;
+
   margin-top: 10px;
   width: 24px;
   height: 24px;
 }
 
 .kontensd .img2{
-  margin-right: -15px;
-  margin-left: -15px;
+  
+ 
   border-radius: 100%;
   width: 40px;
   height: 40px;

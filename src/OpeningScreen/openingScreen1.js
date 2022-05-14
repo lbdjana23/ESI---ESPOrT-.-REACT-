@@ -39,7 +39,7 @@ function OpeningScreen1() {
             <img src={logo} alt="loading"class="img1"/>
             <img src={loading} alt="logo"class="img2 mt-5"/>
           </div>
-          <div class="content">
+          <div class="ops" id="konten">
             <Link to="/login">
               <div className="text-right mt-4 mb-4">
                 <b>SKIP</b>
@@ -65,12 +65,11 @@ function OpeningScreen1() {
               Form a squad with the best players in your city
             </h5>
           
-        
-      <nav className="text-center">
         <Link to="/open2">
-          <button style={{ margin: 10 }}>NEXT</button>
-        </Link>
-      </nav>
+          <button type="button" class="btn">
+            <b>NEXT</b>
+          </button></Link>
+      
         </div>
       </main>
     </>

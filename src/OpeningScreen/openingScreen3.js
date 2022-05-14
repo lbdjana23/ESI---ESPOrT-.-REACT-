@@ -28,34 +28,40 @@ function OpeningScreen3() {
   return (
     <>
       <main>
+      <div class="ops">
+            <Link to="/login">
+              <div className="text-right mt-4 mb-4">
+                <b>SKIP</b>
+              </div>
+            </Link>
+            <br />
+            <div className="wrapper">
+              <div>
+                <img src={os3} alt="os3" className="opening__img" />
+              </div>
+            </div>
+
+            <div className="d-flex flex-row mb-4 justify-content-center">
+              <div style={dotOne}></div>
+              <div style={dotTwo}></div>
+              <div style={dotThree}></div>
+            </div>
+
+            <h2 className="text-center">
+              <b>Playing</b>
+            </h2>
+            <h5 className="text-center">
+            Find and win various e-sport tournament
+            </h5>
+          
         <Link to="/login">
-          <div className="text-right mt-4 mb-4">
-            <b>SKIP</b>
-          </div>
-        </Link>
-        <br />
-        <div className="wrapper">
-          <div>
-            <img src={os3} alt="os3" className="opening__img" />
-          </div>
-        </div>
-        <div className="d-flex flex-row mb-4 justify-content-center">
-          <div style={dotOne}></div>
-          <div style={dotTwo}></div>
-          <div style={dotThree}></div>
-        </div>
-        <h2 className="text-center">
-          <b>Playing</b>
-        </h2>
-        <h5 className="text-center">Find and win various esport tournament</h5>
-      </main>
-      <nav className="text-center">
-        <Link to="/login">
-          <button style={{ margin: 7 }}>
-            <div>GET&nbsp;STARTED</div>
+          <button type="button" class="btn" style={{ backgroundColor:'#ec2028', color: 'white'}}>
+            <b>GET&nbsp;STARTED</b>
           </button>
-        </Link>
-      </nav>
+          </Link>
+      
+        </div>
+      </main>
     </>
   );
 }

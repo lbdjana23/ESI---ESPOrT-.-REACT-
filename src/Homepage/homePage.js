@@ -49,11 +49,11 @@ function Homepage() {
                 <h1>Hai, Charles</h1>
                 <h2>Selamat datang!</h2>
               </div>
-              <div class="d-flex flex-row">
+              {/* <div class="d-flex flex-row">
               <Link to=""><img src={wallet} alt="wallet" class="img1 "/></Link>
               <Link to=""><img src={notif} alt="notif" class="img1 "/></Link>
               <Link to="/profile"><img src={charles} alt="charles" class="img2 "/></Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -43,7 +43,7 @@ function HomepagenotSquad() {
       <>
         <main>
         <div class="col-md-12  mx-auto kontensd">
-          <div class="col-md-6 mx-auto ">
+          <div class="col-md-7 mx-auto ">
             <div class="d-flex flex-row mx-auto justify-content-between">
               <div>
                 <h1>Hai, Charles</h1>
@@ -57,7 +57,7 @@ function HomepagenotSquad() {
             </div>
           </div>
         </div>
-        <div className="col-md-6 mx-auto kontenqr">
+        <div className="col-md-7 mx-auto kontenqr">
             <div class="card">
               <div class="card-body d-flex flex-row justify-content-between">
                 <div>
