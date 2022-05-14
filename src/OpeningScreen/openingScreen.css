@@ -1,7 +1,4 @@
-/* @font-face {
-  font-family: "Product Sans";
-  src: url("Font/Product Sans Regular.ttf");
-} */
+
 
 /* devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -40,6 +37,7 @@ body {
   align-items: center;
   justify-content: center;
   position: fixed;
+  z-index: 99999;
   
 }
 .loader .img2{
@@ -59,6 +57,16 @@ body {
       visibility: hidden;
     }
   }
+  
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 
 
@@ -69,38 +77,48 @@ body {
   margin: 0 auto;
   min-height: 640px;
 }
-a {
-  color: #7d7e7f;
-  font-size: 14px;
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 85%;
 }
-a:hover {
+.content a {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #747D8C;
+}
+.content a:hover {
   color: #000000;
 }
-img {
+.wrapper img {
   display: flex;
   margin: 0 auto;
   max-width: 500px;
   min-width: 50px;
-}
-.opening__img {
   margin-bottom: 217px;
 }
-h2 {
+.content h2 {
   color: #f3001f;
   font-size: 24px;
   margin-bottom: 15px;
 }
-h5 {
+.content h5 {
   color: #7d7e7f;
   font-size: 14px;
   text-align: center;
+  margin-bottom: 55px;
 }
-p {
+.content p {
   font-size: 10px;
 }
-button {
+.content button {
+  display: flex;
+  margin: 0 auto;
   max-width: 100%;
-  border: none;
   background-color: #e4e5ea;
   text-align: center;
   color: #747d8c;
@@ -109,7 +127,11 @@ button {
   border-radius: 4px;
   margin-bottom: 40px;
 }
-button:hover {
+.content button:hover {
   background-color: #ec2028;
   color: #ffffff;
 }
+.wrapper {
+  width: 100%;
+}
+

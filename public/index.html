@@ -55,6 +55,12 @@
 
   <body>
     <script>
+      $(window).on('load',function(){
+        $(".loader").fadeOut(1000);
+        $(".content").fadeIn(1000);
+      })
+    </script>
+    <script>
       const tabs = document.querySelectorAll('[data-tab-target]')
   const tabContents = document.querySelectorAll('[data-tab-content]')
   
