@@ -6,7 +6,7 @@ import dolarkuning from "../img/dolarkuning.svg";
 import star1 from "../img/Star 1.svg";
 import star5 from "../img/Star 5.svg";
 import coolicon from "../img/coolicon.svg";
-function  detailTournament () {
+function  detailTournamentFree () {
     return (
         <>
         <main>
@@ -72,8 +72,6 @@ function  detailTournament () {
                                 <h1 class="text-muted  mt-3">Tim Terdaftar</h1>
                                 <h2 class="">25/50</h2>
                                 <Link to="/timTerdaftar"><button type="button" class="btn btnlihat " > <span class="mr-2">Lihat</span>  <img src={coolicon} alt=""/></button></Link>
-                                <h1 class="text-muted  mt-3">Biaya Pendaftaran</h1>
-                                <h2 class="">Rp 100.000</h2>
                                 <h1 class="text-muted  mt-3">Total Hadiah</h1>
                                 <h2 class="">Rp 100.000.000</h2>
                                 <h1 class="text-muted  mt-3">Dekripsi</h1>
@@ -147,4 +145,4 @@ function  detailTournament () {
     )
 }
 
-export default detailTournament;
+export default detailTournamentFree;

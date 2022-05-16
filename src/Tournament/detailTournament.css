@@ -4,32 +4,33 @@
 }
 
 .konten1 .card .img1{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 .konten .img{
-    width: 400px;
-    height: 400px;
+  width: 319px;
+  height: 186px;
 }
 
 .konten1 .card h1{
     
-font-family: 'Product Sans';
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 20px;
-color: #000000;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E272E;
+  
 }
 
 .konten1 .card h2{
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 15px;
-    color: #B0B0B0;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 158.3%;
+  color: #B0B0B0;
 
 }
 
@@ -39,20 +40,9 @@ color: #000000;
     margin-left: 20px;
 }
 
-.konten1 h3{
-  margin-left: -350px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 15px;
-    color: #FF9A03;
-}
-.konten1 .imgst{
-  width: 10px;
-height: 10px;
-}
-.konten1 .btn1{
+
+
+.konten5pt .btn1{
   width: auto;
   height: auto;
   border: 1px solid #F3001F;
@@ -68,7 +58,7 @@ height: 10px;
   color: #F3001F;
 }
 
-.konten1 .btn2{
+.konten5pt .btn2{
   width: auto;
   height: auto;
   font-weight: 700;
@@ -83,127 +73,27 @@ line-height: 12px;
 
   color: #44C616;
 }
-
-
-
-
-
-
-
-  .tab-content .turnament h1{
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-  }
-  .tab-content .turnament1 h1{
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 11px;
-    line-height: 13px;
-    color: #696967;
-  }
- 
-  .tab-content .turnament1 h2{
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    text-align: justify;
-
-  }
-
-  .tab-content .turnament1 .btn1{
-    width: 80px;
-    height: 35px;
-
-    background: #C4C4C4;
-    border-radius: 4px;
-
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 15px;
-    color: #FFFFFF;
-  }
-
-  .tab-content .turnament1 .btn2{
-    align-items: center;
-    width: 300px;
-    height: 45px;
-    background: #F3001F;
-    border-radius: 4px;
-    
-
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-  }
-  
-  .tab-content .turnament1 .btn3{
-    align-items: center;
-    width: 200px;
-    height: 45px;
-    background: #E4E5EA;
-    border-radius: 4px;
-    
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    text-transform: uppercase;
-    color: #747D8C;
-  }
-
-  .tab-content .turnament2 {
-    width: 100%;
-height: 30px;
-border: 1px solid #F3001F;
-box-sizing: border-box;
-  }
-
-  .tab-content .turnament2 .img1 {
-    background: #F3001F;
-  }
-  .tab-content .turnament2 .img2 {
-    background: #F3001F;
-  }
- .turnament2 h1{
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: bold;
-  font-size:15px;
-  line-height: 15px;
-  color: #000000;
-  
- }
-
- .turnament2 .img1{
-   width: 30px;
-   margin-left: -15px;
- }
-  
- .turnament2 .img2{
-  width: 30px;
-  margin-right: -15px;
-}
-  
-.imgstart{
+.konten5pt .img2{
   width: 10px;
   height: 10px;
 }
+.konten5pt h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 11px;
+
+  color: #FF9A03;
+}
+
+
+
+
+
+
+
+  
 /* Awal Tab content */
 
 
@@ -219,9 +109,9 @@ box-sizing: border-box;
 
 
 
-.tabs {
+.tabss {
   width: auto;
-  height: 50px;
+  height: auto;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
@@ -233,7 +123,6 @@ box-sizing: border-box;
     line-height: 15px;
     text-align: center;
     color: #696967;
-    
 }
 
 .tab {
@@ -241,7 +130,7 @@ box-sizing: border-box;
   
 }
 
-.tab.active {
+.tabss .active {
   padding: 10px;
   width: auto;
   border-bottom: 1px solid #D11117;
@@ -273,3 +162,109 @@ box-sizing: border-box;
 }
 
 /* Akhir Tab content */
+  
+  
+  
+.tab-content .turnament h1{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.tab-content .turnament1 h1{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  color: #696967;
+}
+
+.tab-content .turnament1 h2{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-align: justify;
+
+}
+
+.tab-content .turnament1 .btnpesan{
+  width: 300px;
+  height: 45px;
+  background: #C4C4C4;
+  border-radius: 4px;
+
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.tab-content .turnament1 .btndfttrm{
+  align-items: center;
+  width: 300px;
+  height: 45px;
+  background: #F3001F;
+  border-radius: 4px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.tab-content .turnament1 .btnlihat{
+  width: auto;
+  height: auto;
+  background: #E4E5EA;
+  border-radius: 4px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #747D8C;
+}
+
+.tab-content .turnament2 {
+  width: 100%;
+height: 30px;
+border: 1px solid #F3001F;
+box-sizing: border-box;
+}
+
+.tab-content .turnament2 .img1 {
+  background: #F3001F;
+}
+.tab-content .turnament2 .img2 {
+  background: #F3001F;
+}
+.turnament2 h1{
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: bold;
+font-size:15px;
+line-height: 15px;
+color: #000000;
+
+}
+
+.turnament2 .img1{
+ width: 30px;
+ margin-left: -15px;
+}
+
+.turnament2 .img2{
+width: 30px;
+margin-right: -15px;
+}

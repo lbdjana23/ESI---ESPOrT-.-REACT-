@@ -216,9 +216,9 @@ function Homepage() {
           {/* Div Akhir card */}
         </div>
 
-                    <div className="col-md-6  navs mx-auto mt-5 bottom " id="navs">
-                        <div className="card mx-auto">
-                            <div className="card-body">
+                    <div className="col-md-6  navs mx-auto mt-5  " id="navs">
+                        <div className="card  mx-auto ">
+                            <div className="card-body mx-auto col-md-6 fixed-bottom">
                                 <div className=" d-flex flex-row justify-content-between mt-2 pt-1" >
                                     <Link to="/homepage" class="btn active"><img src={home2} alt="home-2"/><span class="color-active">Home</span></Link>
                                     <Link to="/tournament" class="btn "><img src={tournament1} alt="tournament-1"/><span  >Tournament</span></Link>

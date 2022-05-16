@@ -148,9 +148,9 @@ function HaveSquad() {
           </div>
         </div>
 
-                    <div className="col-md-6  navs mx-auto mt-5 bottom " id="navs">
+                    <div className="col-md-6  navs mx-auto mt-5  " id="navs">
                         <div className="card mx-auto">
-                            <div className="card-body mx-auto">
+                            <div className="card-body mx-auto col-md-6 fixed-bottom">
                                 <div className=" d-flex flex-row justify-content-between mt-2 pt-1 mx-auto" >
                                     <Link to="/homepage" class="btn "><img src={home1} alt="home-1"/><span>Home</span></Link>
                                     <Link to="/tournament" class="btn "><img src={tournament1} alt="tournament-1"/><span  >Tournament</span></Link>

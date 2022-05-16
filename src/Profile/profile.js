@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import edit from "../img/edit-2.svg";
 import setting from "../img/setting.svg";
 import "../Profile/profile.css";
+import verifiedBlue from "../Picture/verified-blue.svg";
+import dot from "../Picture/dot.svg";
+import more from "../Picture/more.svg";
 import NavBar from "../Navbar/navigationBar";
 import profile1 from "../img/profile-1.svg";
 import Camera from "../img/camera.svg";
@@ -22,7 +25,6 @@ import centangbirru from "../img/centangbirru.svg";
 import Ellipsesvg from "../img/Ellipsesvg.svg";
 import tiga from "../img/tiga.svg";
 import TabsProfile from "../Profile/TabsProfile";
-import logokotabali from "../img/logo kota bali.svg";
 
 function Profile(){
     return (
@@ -76,28 +78,26 @@ function Profile(){
                     </div>
                        
                 </div>
-                <div class="col-md-6 mx-auto mt-5 konten2 ">
-                    <div class="card mx-auto">
+                <div class="col-md-6 mx-auto mt-4 conten2">
+                    <div class="card ">
                         <div class="card-body d-flex flex-row justify-content-between">
-                            <div class="d-flex flex-row">
-                                <img src={test} class="img1 mt-1" />
-                                <div class="mt-2">
-                                <h3 class="card-title ml-3 d-flex flex-row">Space Squad <img src={centangbirru} class="imgg" alt=""/></h3>
-                                <h2 class="card-subtitle mb-1 text-muted  ml-3 d-flex flex-row">Squad <img src={Ellipsesvg} class="  d-flex flex-row imggg"/> Mobile Legend</h2>
-                                </div>
-                            </div>
-                            <div class="ml-auto mt-2">  
-                                <img class="ml-2 img2" src={tiga}  />
+                        <div class="d-flex flex-row">
+                            <img src={test} class="img1  mr-2 mt-3" />
+                            <div class="ml-1   mr-2 mt-4">
+                            <h1 class="card-title ">Space Squad <img src={verifiedBlue} class="img2"/></h1>
+                            <h2 class="card-subtitle text-muted mt-2 ">Squad <img src={dot} class="ml-2 mr-2 img3"/> Mobile Legend</h2>
                             </div>
                         </div>
+                        <img class="ml-2 img4 mt-4" src={more}  />
+                        </div>
                     </div>
-                </div>
+                    </div>
 
                 <TabsProfile/>
 
-                <div className="col-md-6  navs mx-auto mt-5 bottom " id="navs">
+                <div className="col-md-6  navs mx-auto mt-5  " id="navs">
                         <div className="card mx-auto">
-                            <div className="card-body">
+                            <div className="card-body fixed-bottom">
                                 <div className=" d-flex flex-row justify-content-between mt-2 pt-1" >
                                     <Link to="/homepage" class="btn "><img src={home1} alt="home-1"/><span>Home</span></Link>
                                     <Link to="/tournament" class="btn "><img src={tournament1} alt="tournament-1"/><span  >Tournament</span></Link>

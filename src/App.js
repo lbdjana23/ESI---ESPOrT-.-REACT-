@@ -22,6 +22,8 @@ import ForgotPassword from "./ForgotPassword/forgotPassword";
 import CreateNewPassword from "./ForgotPassword/createNewPassword";
 import InputCode from "./ForgotPassword/inputCode";
 import Tournament from "./Tournament/tournament";
+import TournamentPay from "./Tournament/turnamentpay";
+import TournamentFree from "./Tournament/turnamentfree";
 import Profile from "./Profile/profile";
 import Leaderboard from "./Leaderboard/leaderboard";
 import Load from "./OpeningScreen/load";
@@ -29,6 +31,7 @@ import BuatSquad from "./SquadPage/buatSquad";
 import RegisterTournament from "./Tournament/registerTournament";
 import ResponRegisTurnament from "./Tournament/responRegisTurnament";
 import Detailtournament from "./Tournament/detailTournament";
+import DetailTournamentFree from "./Tournament/detailTournamentFree";
 export default function App() {
   return (
     <div className="App">
@@ -55,12 +58,15 @@ export default function App() {
         <Route path="/input-code" element={<InputCode />} />
         <Route path="/create-password" element={<CreateNewPassword />} />
         <Route path="/tournament" element={<Tournament/>}/>
+        <Route path="/tournamentPay" element={<TournamentPay/>}/>
+        <Route path="/tournamentFree" element={<TournamentFree/>}/>
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/leaderboard" element={<Leaderboard/>}/>
         <Route path="/buatSquad" element={<BuatSquad/>}/>
         <Route path="/registerTournament" element={<RegisterTournament/>}></Route>
         <Route path="/responRegisTurnament" element={<ResponRegisTurnament/>}></Route>
         <Route path="/detailTournament" element={<Detailtournament/>}></Route>
+        <Route path="/detailTournamentFree" element={<DetailTournamentFree/>}></Route>
       </Routes>
     </div>
   );

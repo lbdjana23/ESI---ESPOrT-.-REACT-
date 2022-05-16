@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./TabsProfile.css";
+import logokotabali from "../img/logo kota bali.svg";
 
+import { Link } from "react-router-dom";
 function TabsProfile() {
   const [toggleState, setToggleState] = useState(1);
 
@@ -20,9 +22,9 @@ function TabsProfile() {
 
       <div className="content-tabs">
         <div className={toggleState === 1 ? "content  active-content" : "content"}>
-          <div class=" col-md-6  d-flex flex-row konten4 mt-3 mb-3" >
+          <div class=" col  d-flex flex-row konten4 mt-3 mb-3" >
             <div class="d-flex flex-row">
-              {/* <Link to=""><img src={"../../img/logo kota bali.svg"} class="img1 mt-4"/></Link> */}
+              <Link to=""><img src={logokotabali} class="img1 mt-4"/></Link>
             </div>
           </div>
         </div>
