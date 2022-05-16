@@ -50,9 +50,9 @@ function HomepagenotSquad() {
                 <h2>Selamat datang!</h2>
               </div>
               <div class="d-flex flex-row">
-              <Link to=""><img src={wallet} alt="wallet" class="img1 "/></Link>
-              <Link to=""><img src={notif} alt="notif" class="img1 "/></Link>
-              <Link to=""><img src={charles} alt="charles" class="img2 "/></Link>
+                <Link to=""><img src={wallet} class="img1 mr-3"  /></Link>
+                <Link to=""><img src={notif} class="img1 mr-3"  /></Link>
+                <Link to=""><img src={charles} class="img2 mr-3"  /></Link>
               </div>
             </div>
           </div>
@@ -125,82 +125,80 @@ function HomepagenotSquad() {
             </div>
             
         </div>
-
-          
-
         <div class="col-md-6 mx-auto mt-1 kontenrank">
-            <div class="card">
-              <div class="card-body d-flex flex-row justify-content-between">
-                <div class="d-flex flex-row">
-                  <div class="mt-3 pt-2">
-                  <img src={rankUp} alt="rankUp"  class="img1"/>
-                  </div>
-                  <div class="mt-3 pt-2">
-                  <img src={rank1} alt="rank1"  class="img2"/>
-                  </div>
-                  <div class="mt-3 ml-3">
-                  <img src={spaceSquad} alt="spaceSquad"  class="img3"/>
-                  </div>
-                  <div class=" ml-2">
-                    <h1 class="card-title mt-3 d-flex flex-row">Squid Squad <img src={verifiedBlue}  className="img4  "/></h1> 
+          {/* Div Awal Card */}
+          <div class="card">
+            <div class="card-body d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row">
+                <div class=" pt-2">
+                  <img src={rankUp} class="img1 "/>
+                </div>
+                <div class=" ml-2 pt-2">
+                  <img src={rank1} class="img2 "/>
+                </div>
+                <div class=" ml-3">
+                  <img src={spaceSquad} class="img3 "/>
+                </div>
+                <div class=" ml-3">
+                    <h1 class="card-title ">Squid Squad <img src={verifiedBlue} class="img4 ml-1"/></h1> 
                     <h2 class="card-subtitle mb-1 mt-2" >14562390</h2>
-                  </div>
                 </div>
-                <h3 class="mt-4" >1.200 Poin</h3>
+              </div>
+              <div className="ml-auto">    
+              <h3 class="mt-3 " >1.200 Poin</h3>
               </div>
             </div>
-        </div>
-
-        <div class="col-md-6 mx-auto mt-1 kontenrank">
-            <div class="card">
-              <div class="card-body d-flex flex-row justify-content-between">
-                <div class="d-flex flex-row">
-                  <div class="mt-3 pt-2">
-                  <img src={dot} alt="dot"  class="img1"/>
-                  </div>
-                  <div class="mt-3 pt-2">
-                  <img src={rank2} alt="rank2"  class="img2"/>
-                  </div>
-                  <div class="mt-3 ml-3">
-                  <img src={sikoSquad} alt="spaceSquad"  class="img3"/>
-                  </div>
-                  <div class=" ml-2">
-                    <h1 class="card-title mt-3 d-flex flex-row">siko Squad <img src={verifiedBlue}  className="img4  "/></h1> 
+          </div>
+          {/* Div Akhir card */}
+          {/* Div Awal Card */}
+          <div class="card">
+            <div class="card-body d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row">
+                <div class=" pt-2">
+                  <img src={dot} class="img1 "/>
+                </div>
+                <div class=" ml-2 pt-2">
+                  <img src={rank2} class="img2 "/>
+                </div>
+                <div class=" ml-3">
+                  <img src={sikoSquad} class="img3 "/>
+                </div>
+                <div class=" ml-3">
+                    <h1 class="card-title ">Siko Squad <img src={verifiedBlue} class="img4 ml-1"/></h1> 
                     <h2 class="card-subtitle mb-1 mt-2" >12303456</h2>
-                  </div>
                 </div>
-                <h3 class="mt-4" >1.000 Poin</h3>
+              </div>
+              <div className="ml-auto">    
+              <h3 class="mt-3 " >1.000 Poin</h3>
               </div>
             </div>
-        </div>
-
-
-        <div class="col-md-6 mx-auto mt-1 kontenrank">
-            <div class="card">
-              <div class="card-body d-flex flex-row justify-content-between">
-                <div class="d-flex flex-row">
-                  <div class="mt-3 pt-2">
-                  <img src={rankDown} alt="dot"  class="img1"/>
-                  </div>
-                  <div class="mt-3 pt-2">
-                  <img src={rank3} alt="rank3"  class="img2"/>
-                  </div>
-                  <div class="mt-3 ml-3">
-                  <img src={kapakSquad} alt="spaceSquad"  class="img3"/>
-                  </div>
-                  <div class=" ml-2">
-                    <h1 class="card-title mt-3 d-flex flex-row">Kapak Squad <img src={verifiedBlue}  className="img4  "/></h1> 
+          </div>
+          {/* Div Akhir card */}
+          {/* Div Awal Card */}
+          <div class="card">
+            <div class="card-body d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row">
+                <div class=" pt-2">
+                  <img src={rankDown} class="img1 "/>
+                </div>
+                <div class=" ml-2 pt-2">
+                  <img src={rank3} class="img2 "/>
+                </div>
+                <div class=" ml-3">
+                  <img src={kapakSquad} class="img3 "/>
+                </div>
+                <div class=" ml-3">
+                    <h1 class="card-title ">Kapak Squad <img src={verifiedBlue} class="img4 ml-1"/></h1> 
                     <h2 class="card-subtitle mb-1 mt-2" >56095673</h2>
-                  </div>
                 </div>
-                <h3 class="mt-4" >1.000 Poin</h3>
+              </div>
+              <div className="ml-auto">    
+              <h3 class="mt-3 " >1.000 Poin</h3>
               </div>
             </div>
+          </div>
+          {/* Div Akhir card */}
         </div>
-
-        
-
-
         <div className="col-md-6  navs mx-auto mt-5 bottom " id="navs">
                         <div className="card mx-auto">
                             <div className="card-body">

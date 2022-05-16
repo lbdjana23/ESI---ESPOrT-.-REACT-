@@ -31,7 +31,7 @@ function Profile(){
                 <main>
                    
                 <div class="col-md-12 contentP mx-auto konten ">
-                    <div class="col-md-10 mx-auto">
+                    <div class="col-md-6 mx-auto">
                         <div class="d-flex flex-row mx-auto justify-content-between mb-1 mt-3">
                             <img src={edit} alt=""class="img-1"data-toggle="modal" data-target="#profile"/>
                             {/* <!-- Modal --> */}

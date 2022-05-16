@@ -169,7 +169,7 @@ body {
   color: #B0B0B0;
 }
 
-.konten4 .card .btn1{
+.konten4 .card .btnOpen{
   display: flex;
   align-items: center;
   padding: 12px 30px;
@@ -258,18 +258,18 @@ body {
 
 
 .kontenrank .img1{
-  margin-left: -30px;
+  
   width: 16px;
   height: 16px;
 }
 
 .kontenrank .img2{
-  margin-left: -20px;
+  
 width: 18px;
 height: 18px;
 }
 .kontenrank .img3{
-  margin-left: -20px;
+ 
   width: 39.59px;
   height: 40px;
   border-radius: 100%;
@@ -301,15 +301,22 @@ color: #B0B0B0;
 }
 
 .kontenrank h3{
-  margin-left: -10px;
-  
-  width: 200px;
+  width: 77px;
+height: 17px;
 font-family: 'Product Sans';
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 14px;
 line-height: 17px;
 color: #F3001F;
+}
+.kontenrank .card {
+  margin-top: 10px;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  border: 1px solid #CED6E0;
+  border-radius: 4px;
 }
 .conten2 .card{
 border: 1px solid #E6E6E6;

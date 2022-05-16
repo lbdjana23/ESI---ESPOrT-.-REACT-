@@ -35,7 +35,7 @@ import leaderboard2 from "../img/leaderboard-2.svg";
 import squad2 from "../img/squad-2.svg";
 import tournament2 from "../img/tournament-2.svg";
 import home2 from "../img/home-2.svg";
-
+import test from "../img/test.jpg";
 
 function Homepage() {
   return (
@@ -49,11 +49,11 @@ function Homepage() {
                 <h1>Hai, Charles</h1>
                 <h2>Selamat datang!</h2>
               </div>
-              {/* <div class="d-flex flex-row">
-              <Link to=""><img src={wallet} alt="wallet" class="img1 "/></Link>
-              <Link to=""><img src={notif} alt="notif" class="img1 "/></Link>
-              <Link to="/profile"><img src={charles} alt="charles" class="img2 "/></Link>
-              </div> */}
+              <div class="d-flex flex-row">
+                <Link to=""><img src={wallet} class="img1 mr-3"  /></Link>
+                <Link to=""><img src={notif} class="img1 mr-3"  /></Link>
+                <Link to=""><img src={charles} class="img2 mr-3"  /></Link>
+              </div>
             </div>
           </div>
         </div>
@@ -80,21 +80,19 @@ function Homepage() {
               </div>
           </div>     
         </div>
-        <div className="col-md-6 mx-auto mt-4 conten2">
-              <div className="card">
-                <div className="card-body d-flex flex-row justify-content-between">
-                  <div className="d-flex flex-row">
-                    <img src={spaceSquad} className="img1  mt-2" />
-                    <div className="ml-4 mt-3 pt-1 ">
-                      <h1 className="card-title d-flex flex-row">Space Squad<img src={verifiedBlue}  className="img2  "/></h1>
-                      <h2 className=" mt-3 d-flex flex-row">Squad<img src={dot} className="img3"/>   Mobile Legend</h2>
-                    </div>
-                  </div>
-                    <div className="ml-auto">
-                      <img className=" img4 mt-4 " src={more} alt="more"  />
-                    </div>
+        <div class="col-md-6 mx-auto mt-4 conten2">
+          <div class="card ">
+            <div class="card-body d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row">
+                <img src={test} class="img1  mr-2 mt-3" />
+                <div class="ml-1   mr-2 mt-4">
+                  <h1 class="card-title ">Space Squad <img src={verifiedBlue} class="img2"/></h1>
+                  <h2 class="card-subtitle text-muted mt-2 ">Squad <img src={dot} class="ml-2 mr-2 img3"/> Mobile Legend</h2>
                 </div>
               </div>
+            <img class="ml-2 img4 mt-4" src={more}  />
+            </div>
+          </div>
         </div>
         <div className="mt-4">
           <hr>
@@ -120,16 +118,16 @@ function Homepage() {
               <div class="card">
                 <div class="card-body d-flex flex-row justify-content-between">
                   <div class="d-flex flex-row">
-                    <img src={rankUp} alt="rankUp"  class="img-1 mt-2"  style={{ marginLeft: "-25px" }}/>
-                    <div class="  pt-2 mt-1 ">
+                    <img src={rankUp} alt="rankUp"  class="img-1 mt-2"  />
+                    <div class=" ml-3 pt-2">
                       <h4>20</h4>
-                    </div>
+                    </div>       
                     <div class=" ml-3">
-                    <img src={spaceSquad} alt="spaceSquad"  class="img-3"/>
+                      <img src={spaceSquad} class="img3 "/>
                     </div>
-                    <div className="ml-4   ">
-                      <h1 className="card-title d-flex flex-row">Space Squad<img src={Group}  className="img-2  "/></h1>
-                      <h2 className="d-flex flex-row">4R2632379</h2>
+                    <div class=" ml-4">
+                      <h1 class="card-title ">Space Squad<img src={verifiedWhite} class="img4 ml-1"/></h1> 
+                      <h2 class="card-subtitle mb-1 mt-2" >4R2632379</h2>
                     </div>
                   </div>
                 </div>
@@ -143,75 +141,79 @@ function Homepage() {
               </div>
             </div>
         </div>
-
         <div class="col-md-6 mx-auto mt-1 kontenrank">
-            <div class="card">
-              <div class="card-body d-flex flex-row justify-content-between">
-                <div class="d-flex flex-row">
-                  <div class="mt-3 pt-2">
-                  <img src={rankUp} alt="rankUp"  class="img1"/>
-                  </div>
-                  <div class="mt-3 pt-2">
-                  <img src={rank1} alt="rank1"  class="img2"/>
-                  </div>
-                  <div class="mt-3 ml-3">
-                  <img src={spaceSquad} alt="spaceSquad"  class="img3"/>
-                  </div>
-                  <div class=" ml-2">
-                    <h1 class="card-title mt-3 d-flex flex-row">Squid Squad <img src={verifiedBlue}  className="img4  "/></h1> 
+          {/* Div Awal Card */}
+          <div class="card">
+            <div class="card-body d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row">
+                <div class=" pt-2">
+                  <img src={rankUp} class="img1 "/>
+                </div>
+                <div class=" ml-2 pt-2">
+                  <img src={rank1} class="img2 "/>
+                </div>
+                <div class=" ml-3">
+                  <img src={spaceSquad} class="img3 "/>
+                </div>
+                <div class=" ml-3">
+                    <h1 class="card-title ">Squid Squad <img src={verifiedBlue} class="img4 ml-1"/></h1> 
                     <h2 class="card-subtitle mb-1 mt-2" >14562390</h2>
-                  </div>
                 </div>
-                <h3 class="mt-4" >1.200 Poin</h3>
+              </div>
+              <div className="ml-auto">    
+              <h3 class="mt-3 " >1.200 Poin</h3>
               </div>
             </div>
-        </div>
-
-        <div class="col-md-6 mx-auto mt-1 kontenrank">
-            <div class="card">
-              <div class="card-body d-flex flex-row justify-content-between">
-                <div class="d-flex flex-row">
-                  <div class="mt-3 pt-2">
-                  <img src={dot} alt="dot"  class="img1"/>
-                  </div>
-                  <div class="mt-3 pt-2">
-                  <img src={rank2} alt="rank2"  class="img2"/>
-                  </div>
-                  <div class="mt-3 ml-3">
-                  <img src={sikoSquad} alt="spaceSquad"  class="img3"/>
-                  </div>
-                  <div class=" ml-2">
-                    <h1 class="card-title mt-3 d-flex flex-row">siko Squad <img src={verifiedBlue}  className="img4  "/></h1> 
+          </div>
+          {/* Div Akhir card */}
+          {/* Div Awal Card */}
+          <div class="card">
+            <div class="card-body d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row">
+                <div class=" pt-2">
+                  <img src={dot} class="img1 "/>
+                </div>
+                <div class=" ml-2 pt-2">
+                  <img src={rank2} class="img2 "/>
+                </div>
+                <div class=" ml-3">
+                  <img src={sikoSquad} class="img3 "/>
+                </div>
+                <div class=" ml-3">
+                    <h1 class="card-title ">Siko Squad <img src={verifiedBlue} class="img4 ml-1"/></h1> 
                     <h2 class="card-subtitle mb-1 mt-2" >12303456</h2>
-                  </div>
                 </div>
-                <h3 class="mt-4" >1.000 Poin</h3>
+              </div>
+              <div className="ml-auto">    
+              <h3 class="mt-3 " >1.000 Poin</h3>
               </div>
             </div>
-        </div>
-
-
-        <div class="col-md-6 mx-auto mt-1 kontenrank">
-            <div class="card">
-              <div class="card-body d-flex flex-row justify-content-between">
-                <div class="d-flex flex-row">
-                  <div class="mt-3 pt-2">
-                  <img src={rankDown} alt="dot"  class="img1"/>
-                  </div>
-                  <div class="mt-3 pt-2">
-                  <img src={rank3} alt="rank3"  class="img2"/>
-                  </div>
-                  <div class="mt-3 ml-3">
-                  <img src={kapakSquad} alt="spaceSquad"  class="img3"/>
-                  </div>
-                  <div class=" ml-2">
-                    <h1 class="card-title mt-3 d-flex flex-row">Kapak Squad <img src={verifiedBlue}  className="img4  "/></h1> 
+          </div>
+          {/* Div Akhir card */}
+          {/* Div Awal Card */}
+          <div class="card">
+            <div class="card-body d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row">
+                <div class=" pt-2">
+                  <img src={rankDown} class="img1 "/>
+                </div>
+                <div class=" ml-2 pt-2">
+                  <img src={rank3} class="img2 "/>
+                </div>
+                <div class=" ml-3">
+                  <img src={kapakSquad} class="img3 "/>
+                </div>
+                <div class=" ml-3">
+                    <h1 class="card-title ">Kapak Squad <img src={verifiedBlue} class="img4 ml-1"/></h1> 
                     <h2 class="card-subtitle mb-1 mt-2" >56095673</h2>
-                  </div>
                 </div>
-                <h3 class="mt-4" >1.000 Poin</h3>
+              </div>
+              <div className="ml-auto">    
+              <h3 class="mt-3 " >1.000 Poin</h3>
               </div>
             </div>
+          </div>
+          {/* Div Akhir card */}
         </div>
 
                     <div className="col-md-6  navs mx-auto mt-5 bottom " id="navs">
